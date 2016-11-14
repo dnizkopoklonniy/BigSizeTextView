@@ -49,6 +49,15 @@
         </RelativeLayout>
     </RelativeLayout>
 
+    <com.niz.d.bigsizetextview.BigSizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FF5722"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:text="66"/>
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,7 +78,6 @@
             android:layout_width="1dp"
             android:layout_height="1dp"
             android:baselineAlignBottom="true"
-            android:layout_alignParentBottom="true"
-            />
+            android:layout_alignParentBottom="true" />
     </RelativeLayout>
 </LinearLayout>
